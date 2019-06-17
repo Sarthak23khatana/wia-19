@@ -1,0 +1,212 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #fa7d00;
+}
+
+::selection {
+  color: #fff;
+  background: #fa7d00;
+}
+
+.navbar-brand {
+  color: #fff !important;
+}
+
+.navbar {
+  background-color: #f2c078;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+a.nav-link {
+  color: #fff !important;
+}
+
+.container-fluid {
+  background-color: #000;
+}
+
+#waves {
+  width: 100%;
+  height: 100%;
+}
+
+.bg-19 {
+  font-size: 340px;
+  position: absolute;
+  color: rgba(242, 192, 120, 0.4);
+  z-index: 1;
+  margin-top: 100px;
+  width: 100vw;
+  text-align: center;
+}
+
+.main-text {
+  font-size: 56px;
+  position: absolute;
+  color: #fff;
+  z-index: 5;
+  margin-top: 280px;
+  width: 100vw;
+  text-align: center;
+  -webkit-animation: float 3s infinite;
+          animation: float 3s infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes float {
+  from {
+    -webkit-transform: translate(0, 0px);
+            transform: translate(0, 0px);
+  }
+  65% {
+    -webkit-transform: translate(0, 15px);
+            transform: translate(0, 15px);
+  }
+  to {
+    -webkit-transform: translate(0, 0px);
+            transform: translate(0, 0px);
+  }
+}
+
+@keyframes float {
+  from {
+    -webkit-transform: translate(0, 0px);
+            transform: translate(0, 0px);
+  }
+  65% {
+    -webkit-transform: translate(0, 15px);
+            transform: translate(0, 15px);
+  }
+  to {
+    -webkit-transform: translate(0, 0px);
+            transform: translate(0, 0px);
+  }
+}
+
+.about-title {
+  position: absolute;
+  margin-left: -110px;
+  text-align: left;
+  padding: 35px 0 0 0;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  z-index: 0;
+  font-size: 32px;
+  font-weight: bolder;
+  opacity: 1;
+  color: #000;
+}
+
+.about-title span {
+  font-size: 64px;
+}
+
+.about-row {
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+  padding: 50px 0 10px 0;
+  z-index: 1;
+}
+
+.about-row .about {
+  line-height: 32px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 16px;
+  z-index: 2;
+}
+
+.about-row .about span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fa7d00;
+}
+
+.Attendees {
+  background-color: #fa7d00;
+  margin: 20px 0 20px 0;
+}
+
+.movie-pv {
+  height: 600px;
+  margin: 20px 0 20px 0;
+}
+
+.poster-img {
+  width: 100%;
+  height: 600px;
+}
+
+.movie-video {
+  height: 300px;
+}
+
+.movie-content {
+  padding: 0px;
+  line-height: 32px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 16px;
+}
+
+.press {
+  background-color: #fa7d00;
+  margin: 20px 0 20px 0;
+}
+
+.team {
+  background-color: #fa7d00;
+  margin: 20px 0 20px 0;
+}
+
+.sponsors {
+  background-color: #fa7d00;
+  margin: 20px 0 20px 0;
+}
+
+@media (max-width: 480px) {
+  canvas {
+    visibility: hidden;
+    width: 10px !important;
+  }
+  .bg-19 {
+    font-size: 160px;
+    margin-top: 200px;
+  }
+  .main-text {
+    font-size: 48px;
+    margin-top: 280px;
+  }
+  .movie-pv {
+    height: 600px;
+  }
+  .poster-img {
+    height: auto;
+  }
+  .movie-content,
+  .movie-video {
+    height: auto;
+  }
+  .movie-content {
+    padding: 20px;
+  }
+  .about-title {
+    margin-left: -105px;
+    padding: 50px 0 0 0;
+  }
+  .about-title span {
+    font-size: 48px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

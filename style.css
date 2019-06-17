@@ -245,8 +245,8 @@ body {
   padding: 0;
   overflow-x: hidden;
   font-family: "Josefin Sans", sans-serif;
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(15%, #f2c078), to(transparent)), radial-gradient(circle at 100% 0%, rgba(255, 255, 255, 0.2) 10%, transparent 20%) center center/15px 15px, -webkit-gradient(linear, left top, right bottom, from(#f2c078), to(#fa7d00));
-  background: linear-gradient(to bottom right, #f2c078 15%, transparent), radial-gradient(circle at 100% 0%, rgba(255, 255, 255, 0.2) 10%, transparent 20%) center center/15px 15px, linear-gradient(to bottom right, #f2c078, #fa7d00);
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(15%, #f2c078), to(transparent)), radial-gradient(circle at 100% 0%, rgba(255, 255, 255, 0.5) 10%, transparent 20%) center center/15px 15px, -webkit-gradient(linear, left top, right bottom, from(#fa7d00), to(#f2c078));
+  background: linear-gradient(to bottom right, #f2c078 15%, transparent), radial-gradient(circle at 100% 0%, rgba(255, 255, 255, 0.5) 10%, transparent 20%) center center/15px 15px, linear-gradient(to bottom right, #fa7d00, #f2c078);
 }
 
 ::-moz-selection {
@@ -403,7 +403,7 @@ a.nav-link {
 .sponsors {
   background-color: #000;
   color: #fff;
-  padding: 20px;
+  padding: 40px;
 }
 
 .Attendees .card h5 {
@@ -413,6 +413,21 @@ a.nav-link {
 .card {
   background-color: #f2c078;
   border-radius: none !important;
+  padding: 0 10px 0 10px;
+  margin-top: 20px;
+}
+
+.card-body {
+  padding: 10px 0 0 0 !important;
+}
+
+.card-img-top {
+  margin-top: -20px !important;
+}
+
+.cardsexp {
+  background-color: #fff;
+  height: 500px;
 }
 
 @media (max-width: 480px) {
@@ -429,7 +444,7 @@ a.nav-link {
     margin-top: 280px;
   }
   .movie-pv {
-    height: 600px;
+    height: auto;
   }
   .poster-img {
     height: auto;
@@ -441,8 +456,11 @@ a.nav-link {
   .movie-content {
     padding: 20px;
   }
+  .about-section {
+    padding: 0 40px 0 40px;
+  }
   .about-title {
-    margin-left: -105px;
+    margin-left: -100px;
     padding: 50px 0 0 0;
   }
   .about-title span {

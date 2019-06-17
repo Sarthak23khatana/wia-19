@@ -253,8 +253,8 @@ body {
   overflow-x: hidden;
   font-family: "Josefin Sans", sans-serif;
   background: linear-gradient(to bottom right, #f2c078 15%, transparent),
-    radial-gradient(circle at 100% 0%, rgba(255, 255, 255, 0.2) 10%, transparent 20%) center center / 15px 15px,
-    linear-gradient(to bottom right,  #f2c078, #fa7d00);
+    radial-gradient(circle at 100% 0%, rgba(255, 255, 255, 0.5) 10%, transparent 20%) center center / 15px 15px,
+    linear-gradient(to bottom right, #fa7d00, #f2c078);
 }
 
 ::selection {
@@ -280,7 +280,7 @@ a.nav-link {
   width: 100%;
   height: 100%;
 }
-.canvas-col {
+.canvas-col{
   background-color: #000;
 }
 .bg-19 {
@@ -375,15 +375,24 @@ a.nav-link {
 .team,
 .sponsors {
   background-color: #000;
-  color: #fff;
-  padding: 20px;
+  color:#fff;
+  padding: 40px;
 }
+
 .Attendees .card h5{
   color: #000;
 }
 .card{
   background-color: #f2c078;
   border-radius: none !important;
+  padding: 0 10px 0 10px;
+  margin-top: 20px;
+}
+.card-body{
+  padding:10px 0 0 0 !important;
+}
+.card-img-top{
+  margin-top: -20px !important;
 }
 // Attendees
 // cardsexp// 
@@ -408,7 +417,7 @@ a.nav-link {
     margin-top: 280px;
   }
   .movie-pv {
-    height: 600px;
+    height: auto;
   }
   .poster-img {
     height: auto;
@@ -420,8 +429,11 @@ a.nav-link {
   .movie-content {
     padding: 20px;
   }
+  .about-section {
+    padding: 0 40px 0 40px;
+  }
   .about-title {
-    margin-left: -105px;
+    margin-left: -100px;
     padding: 50px 0 0 0;
     span {
       font-size: 48px;
